@@ -1,0 +1,149 @@
+
+//function statement or declaration
+//function var_name(){
+    //code
+//}
+
+function box(){
+    console.log("Hello vickram")
+}
+box()
+
+function cash(x){
+    return x
+}
+console.log(cash("Rs:"+100))
+
+var fn = function happy(){
+    console.log("Hi I'm function expression")
+}
+fn()
+
+var arr = ()=>{console.log("How are you")}
+arr()
+
+var arr =(x)=>{console.log(x*x)}
+arr(5)
+
+var num = 5
+var num2 =5
+console.log(num**num2);
+
+var inc = 5
+inc++
+console.log(inc)
+
+var dec = 5
+dec--
+console.log(dec)
+
+var num = 5
+num +=2
+console.log(num)
+
+var num = 5
+num -=2
+console.log(num)
+
+var num = 5
+num *=2
+console.log(num)
+
+var num = 5
+num /=5
+console.log(num)
+
+var num = 5
+num %=5
+console.log(num)
+
+var a = 10
+var b = 20
+console.log(a!=b)
+
+var a = 5
+var b = 10
+console.log(a>=b)
+
+var num=10
+var num2=20
+console.log(num==num2);
+
+var num=10
+var num2="10"
+console.log(num===num2);
+
+var age = 10
+var limit = (age>=18) ? "He is eligible to vote" : "He is not eligible to vote"
+console.log(limit);
+
+//task
+
+var age = 100
+var limit=(age>=18 || age<=18)? "He is eligible" : "He is not eligible"
+console.log(limit);
+
+var height=155
+var cm =(height>=188 && height<=188)?"He is eligible":"He is not eligible"
+console.log(cm)
+
+for(var i=0; i<5; i++){
+    console.log(i)
+}
+
+for(var i=0;i<=5;i++){
+    console.log(i);
+}
+
+for(var i=5;i>0;i--){
+    console.log(i);
+}
+
+let str="name"
+for(let i=0;i<str.length;i++){
+    console.log(str[i]);
+}
+
+let cal = "java"
+for(let i=cal.length-1;i>=0;i--){
+    console.log(cal[i]);
+}
+
+let hel = "Word"
+for(let i=0; i<hel.length;i++){
+    console.log(hel[i]);
+}
+
+let fav ="java"
+let result=""
+for(let i=0; i<fav.length;i++){
+    result += fav[i]
+}
+console.log(result)
+
+
+let ros ="java"
+
+for(var i=ros.length-1;i>=0;i--){
+    console.log(ros[i]);
+}
+
+let hi ="java"
+let pick = " "
+for(var i=hi.length-1;i>=0;i--){
+    pick += hi[i]
+    
+}
+console.log(pick);
+
+var obj = {
+    name : "Vicky",
+    Dep : "CSE"
+}
+for(var x in obj){
+    console.log(x+"<=>"+obj[x]);
+}
+
+for(var i=0;i>5;i--){
+    console.log(i);
+}

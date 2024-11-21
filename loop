@@ -1,0 +1,43 @@
+
+//while
+
+var count = 0
+while(count<5){
+    console.log(count);
+    count++
+}
+
+//do while
+
+ var docount=1
+do{
+    console.log(docount);
+    docount++
+}
+while(docount<=10)
+
+    //
+
+    //var weeks=["Sunday","Monday","Tuesday","Wednesday"]
+    //weeks.forEach=(val,idx,accarr)=>console.log(val,idx,accarr);
+
+    var count = 0
+    while(count<=5){
+        console.log(count);
+        count--;
+    }
+
+    //Task 
+
+    let pas = 8
+    if (pas>=10 && pas<=20){
+        console.log("Auto will move");
+    }
+    else if(pas<=9){
+        console.log("Wait for passenger");
+    }
+    else{
+        console.log("Drop the passenger");
+    }
+    
+    
