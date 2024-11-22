@@ -8,3 +8,8 @@
     console.log("wednesday");
     
  }date();
+
+ function time(){
+    console.log("12.Am");
+    
+ }date();
